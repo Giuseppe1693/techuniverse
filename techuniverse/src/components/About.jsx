@@ -4,7 +4,7 @@ function About() {
       <div className="max-w-4xl mx-auto px-6 text-center">
         <h1 className="text-4xl md:text-6xl font-extrabold mb-6">Chi Siamo</h1>
         <p className="text-lg md:text-xl text-indigo-100 mb-8">
-          TechBlog è la tua destinazione per prodotti di alta qualità, innovativi e a prezzi competitivi. La nostra
+          TechUniverse è la tua destinazione per prodotti di alta qualità, innovativi e a prezzi competitivi. La nostra
           missione è offrire un'esperienza di acquisto semplice, affidabile e conveniente per tutti i nostri clienti.
         </p>
 
