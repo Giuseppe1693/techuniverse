@@ -15,17 +15,17 @@ function Footer() {
           <h3 className="text-white text-lg font-semibold mb-3">Link Utili</h3>
           <ul className="space-y-1 text-sm md:text-base">
             <li>
-              <a href="/" className="hover:text-blue-400 transition">
+              <a href="/" className="hover:text-blue-400">
                 Home
               </a>
             </li>
             <li>
-              <a href="/productList" className="hover:text-blue-400 transition">
+              <a href="/productList" className="hover:text-blue-400">
                 Prodotti
               </a>
             </li>
             <li>
-              <a href="/cart" className="hover:text-blue-400 transition">
+              <a href="/cart" className="hover:text-blue-400">
                 Carrello
               </a>
             </li>
@@ -39,7 +39,7 @@ function Footer() {
           <p className="text-sm md:text-base">Telefono: 388-4538689</p>
           <p className="text-sm md:text-base">
             GitHub:{" "}
-            <a href="https://github.com/giuseppe1693" className="hover:text-blue-400 transition">
+            <a href="https://github.com/giuseppe1693" className="hover:text-blue-400">
               giuseppe1693
             </a>
           </p>
