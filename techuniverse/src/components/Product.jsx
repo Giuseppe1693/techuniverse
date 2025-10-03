@@ -30,7 +30,7 @@ function Product({ product, addBtn }) {
             <span className="text-lg font-bold text-indigo-600">€ {price}</span>
           )}
         </div>
-        <div className="mt-4 flex items-center justify-between">
+        <div className="mt-4 flex">
           <button
             onClick={() => addBtn(product)}
             className="py-1 px-3 bg-blue-600 text-white rounded hover:bg-blue-700 transition"

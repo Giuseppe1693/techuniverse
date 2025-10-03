@@ -9,7 +9,7 @@ function ProductDetail({ products }) {
   return (
     <div className="bg-gradient-to-r from-indigo-600 to-purple-600 min-h-screen px-6 py-12 flex justify-center">
       <div className="w-full max-w-3xl">
-        <NavLink to="/productList" className="text-white font-semibold hover:underline transition-colors">
+        <NavLink to="/productList" className="text-white font-semibold hover:underline">
           Torna alla lista prodotti
         </NavLink>
 
@@ -25,7 +25,7 @@ function ProductDetail({ products }) {
                 </span>
               )}
             </div>
-            <div className="mt-6 flex items-center justify-between">
+            <div>
               <p className="text-xl font-bold text-blue-600">€ {product.price.toFixed(2)}</p>
             </div>
           </div>
