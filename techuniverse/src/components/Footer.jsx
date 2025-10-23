@@ -1,45 +1,25 @@
+import { Link } from "react-router-dom";
+
 function Footer() {
   return (
     <footer className="bg-gray-800 text-gray-400 py-8">
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 gap-6 justify-items-center">
         {/* Sezione Info */}
-        <div>
+        <div className="text-center sm:text-left">
           <h3 className="text-white text-lg font-semibold mb-3">TechUniverse</h3>
           <p className="text-sm md:text-base">
             La tua destinazione per prodotti di qualità, innovazione e convenienza.
           </p>
         </div>
 
-        {/* Link Utili */}
-        <div>
-          <h3 className="text-white text-lg font-semibold mb-3">Link Utili</h3>
-          <ul className="space-y-1 text-sm md:text-base">
-            <li>
-              <a href="/" className="hover:text-blue-400">
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="/productList" className="hover:text-blue-400">
-                Prodotti
-              </a>
-            </li>
-            <li>
-              <a href="/cart" className="hover:text-blue-400">
-                Carrello
-              </a>
-            </li>
-          </ul>
-        </div>
-
         {/* Contatti */}
-        <div>
+        <div className="text-center sm:text-left">
           <h3 className="text-white text-lg font-semibold mb-3">Contatti</h3>
           <p className="text-sm md:text-base">Email: battigiuseppe6@gmail.com</p>
           <p className="text-sm md:text-base">Telefono: 388-4538689</p>
           <p className="text-sm md:text-base">
             GitHub:{" "}
-            <a href="https://github.com/giuseppe1693" className="hover:text-blue-400">
+            <a href="https://github.com/giuseppe1693" className="hover:text-blue-400" target="_blank" rel="noreferrer">
               giuseppe1693
             </a>
           </p>
